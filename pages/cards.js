@@ -117,10 +117,6 @@ function Cards({tabName, loading, imgRef, handleLoad}) {
           </React.Fragment>
         ))}
       </div>
-      <div className='dummy-card-show-more'>
-        <p>Continue exploring {tabName}</p>
-        <button>Show more</button>
-      </div>
     </div>
   );
 }
