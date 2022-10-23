@@ -45,10 +45,13 @@ function Map({tabName}) {
                   boxShadow:
                     'rgb(255 255 255 / 18%) 0px 0px 0px 1px inset, rgb(0 0 0 / 18%) 0px 2px 4px',
                   borderRadius: 28,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
               >
                 <div
-                  style={{fontSize: 16, fontColor: `#222222`, fontWeight: 600}}
+                  style={{fontSize: 14, fontColor: `#222222`, fontWeight: 800}}
                 >
                   ${val.price}
                 </div>
