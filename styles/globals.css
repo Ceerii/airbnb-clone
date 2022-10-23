@@ -1175,3 +1175,7 @@ padding: 0px 24px;
   margin-bottom: 24px;
   width: 105px;
 }
+
+button.gm-ui-hover-effect {
+    visibility: hidden;
+}
