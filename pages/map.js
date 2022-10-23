@@ -41,7 +41,7 @@ function Map({tabName}) {
                 <div
                   style={{fontSize: 16, fontColor: `#222222`, fontWeight: 600}}
                 >
-                  {val.price}
+                  ${val.price}
                 </div>
               </div>
             </InfoBox>
