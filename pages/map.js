@@ -38,7 +38,14 @@ function Map({tabName}) {
           {val.outlet === tabName ? (
             <InfoBox position={{lat: val.lat, lng: val.lng}}>
               <div
-                style={{backgroundColor: 'white', padding: 16, borderRadius: 8}}
+                style={{
+                  backgroundColor: 'white',
+                  padding: '0px 8px',
+                  height: 28,
+                  boxShadow:
+                    'rgb(255 255 255 / 18%) 0px 0px 0px 1px inset, rgb(0 0 0 / 18%) 0px 2px 4px',
+                  borderRadius: 28,
+                }}
               >
                 <div
                   style={{fontSize: 16, fontColor: `#222222`, fontWeight: 600}}
