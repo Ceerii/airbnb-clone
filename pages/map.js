@@ -36,7 +36,7 @@ function Map({tabName}) {
       {data.map((val, index) => (
         <>
           {val.outlet === tabName ? (
-            <InfoBox position={center}>
+            <InfoBox position={{lat: val.lat, lng: val.lng}}>
               <div style={{backgroundColor: 'white', padding: 12}}>
                 <div
                   style={{fontSize: 16, fontColor: `#222222`, fontWeight: 600}}
