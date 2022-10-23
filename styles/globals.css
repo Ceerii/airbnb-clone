@@ -1179,3 +1179,7 @@ padding: 0px 24px;
 button.gm-ui-hover-effect {
     visibility: hidden;
 }
+
+.gm-style img {
+  display: none;
+}
