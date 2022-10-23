@@ -939,7 +939,6 @@ padding: 0px 24px;
 
 .card-list-wrap {
   display: flex;
-  /* margin: -1rem -1rem; */
   justify-content: center;
   overflow-x: hidden;
   flex-direction: column;
@@ -952,7 +951,7 @@ padding: 0px 24px;
   flex-wrap: wrap;
   width: 100%;
   margin-left: 0rem;
-  /* grid-gap: 2.5rem 0.3rem; */
+  margin-bottom: 32px;
 }
 
 .card-list-item {
