@@ -1,6 +1,6 @@
 import Cards from './cards';
 import Inspiration from './inspiration';
-import Map from './Map';
+import Map from './map';
 
 function Body({
   tabName,
