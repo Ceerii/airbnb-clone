@@ -22,7 +22,7 @@ function Map({tabName}) {
         fullScreenControl: false,
       }}
       center={center}
-      zoom={5}
+      zoom={2}
       mapContainerStyle={{
         width: '100vw',
         minHeight: '100vh',
